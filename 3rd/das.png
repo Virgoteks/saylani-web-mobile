@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title></title>
+</head>
+<body>
+<div class="container-fluid">
+  <h1 style="color: orange;background-color: black;text-align: center;">MOBILE AND WEB HYBRID APPLICATION DEVELOPMENT</h1>
+  
+  <div class="row">
+    <div class="col-sm-4"  style="background-color:lavender;">
+    	<h4 style="text-align: center;">Assignment 1 (<span style="color: green;">Preodic</span> <span style="color: blue">Table</span>)</h3>
+    	<img src="1.png" class="img-responsive" style="height:197px;padding-left:20px;">
+        <a href=" Preodic table/index.html"><button class="btn btn-warning" style="text-align: center;margin-left: 120px;margin-top: 20px;margin-bottom: 20px;">View Assignment</button></a>
+    
+    </div>
+    <div class="col-sm-4" style="background-color:lavenderblush;">
+    	<h4 style="text-align: center;">Assignment 2 (<span style="color: green;">Student</span> <span style="color: blue">Form</span>)</h3>
+    	<img src="2.png" style="height: 195px;padding-left: 10px;" class="img-responsive">
+    	<a href=" std form/index.html"><button class="btn btn-warning" style="text-align: center;margin-left: 120px;margin-top: 20px;margin-bottom: 20px;">View Assignment</button></a>
+    </div>
+    <div class="col-sm-4" style="background-color:lavender;" ><h4 style="text-align: center;">Assignment 3 (<span style="color: green;">Saylani</span> <span style="color: blue">Page</span>)</h3>
+    	<img src="3.png" class="img-responsive" style="height:200px;padding-left:40px;">
+    	<a href=" sylani 3/index.html"><button class="btn btn-warning" style="text-align: center;margin-left: 120px;margin-top: 20px;margin-bottom: 15px;">View Assignment</button></a></div>
+  </div>
+</div>
+</body>
+</html>

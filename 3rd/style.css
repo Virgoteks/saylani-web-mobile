@@ -1,0 +1,170 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.7;
+	color: #666666;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	display: block;
+}
+.first {
+    background-color: #316DC3;
+    height: 20%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.second {
+    position: relative;
+    background-color: #f7f8fa;
+    width: 100%;
+    height: 50%;
+}
+.third {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    top: 130px;
+}
+.third img{
+    width:100%;
+    border: 1px solid black;
+}
+.p1 {
+    padding: 10px 40px;
+    color: white;
+}
+.btn1 {
+	padding-left:  100px;
+}
+#i1 {
+	padding-right: 10px;
+}
+#ic {
+	padding-right: 200px;
+}
+.img1 {
+    padding-left: 50px;
+    height: auto;
+    width: 250px;
+}
+.navi {
+    padding: 20px;
+    position: absolute;
+    margin-left: 150px;
+}
+
+.item1 {
+	padding: 15px;
+}
+.item {
+	border: 10px solid #316DC3;
+	border-radius: 20px;
+	color: white;
+	background-color: #316DC3;
+}
+#tit {
+	background-color: #316DC3;
+	color: white;
+	text-align: center;
+}
+.fourth {
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+.fifth {
+    text-align: center;
+    font-size: 28px;
+    font-family: serif;
+    position: relative;
+    top: 80px;
+}
+.sixth{
+    position: relative;
+    top: 80px;
+}
+.seven{
+    background: blue;
+    height: 300px;
+    margin: 120px 0 0 0;
+}
+.eight {
+    text-align: center;
+    font-size: 28px;
+    font-family: serif;
+    position: relative;
+    top: 0px;
+}
+.ninth {
+    text-align: center;
+    font-size: 28px;
+    font-family: serif;
+    position: relative;
+    top: 0px;
+}
+
+.img2 {
+	width: 50px;
+	height: 50px;
+}
+.set {
+	padding-left: 150px;
+	padding-right: 150px;
+	color: gray;
+	font-size: 14px;
+	text-align: justify;
+	visibility: visible;
+}
+
+.column {
+  float: left;
+  width: 300px;
+  padding: 10px;
+  height: 180px;
+   /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#main {
+	background-color: white;
+
+}
+.mission {
+	color: #316DC3;
+	padding-left: 100px;
+}
+#well {
+	height: 80px;
+	width: 280px;
+	background-color: #D3D3D3;
+	margin-left: 50px;
+}
+.img3 {
+	padding-left: 30px;
+	padding-top: 20px;
+
+}
+.row-img {
+	margin-left: 100px;
+	padding-bottom: 60px;
+}
+.last {
+    background-color: black;
+    height: 350px;
+}

@@ -1,0 +1,141 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-flow: column;
+}
+
+header img{
+    margin-top: 10px;
+    align-self: center;
+    width: 40%;
+}
+
+header h1{
+    color: #6B5ACD;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    align-self: center;
+}
+
+section::before{
+    display: block;
+    content: "";
+    margin-top: 10px;
+}
+
+section::after{
+    display: block;
+    content: "";
+    margin-top: 70px;
+}
+
+section{
+    display: flex;
+    flex-flow: column;
+}
+
+.mainDiv {
+    width:75%;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+    align-self: center;
+    border-radius: 5px;
+    background-color: #6B5ACD;
+    color:#fff;
+    overflow: visible;
+    padding: 5px;
+}
+
+.form-control input{
+}
+table tr td:nth-child(2){
+    padding-left:10px ;
+}
+td{
+    padding: 1px;
+}
+td input[type="text"],input[type="email"],input[type="number"]{
+    width: 180px;
+    padding: 2px;
+}
+td input[type="radio"],input[type="checkbox"]{
+    margin: 10px;
+    width: 20px; 
+    height: 20px;
+    }
+table tr td:first-child{
+    padding:5px;
+    width: 150px;
+}
+.edu tr td:nth-child(1) {
+    left: 20px;
+    width: 0px;
+}
+.edu tr td:nth-child(2) {
+    left: 10px;
+    width: 0px;
+}
+#qualification {
+    vertical-align: top;
+}
+textarea{
+    width:380px;
+    height:120px;
+}
+.form-Btns{
+    text-align: center;
+}
+.form-Btns input{
+    align-self: center;
+    width: 8%;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 2px;
+}
+.form-Btns::before{
+    display: block;
+    content: "";
+    margin-top: 20px;
+}
+.form-Btns::after{
+    display: block;
+    content: "";
+    margin-top: 20px;
+}
+
+.thank-you {
+    font-family: serif;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.thank-you img{
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.thank-you h1{
+    color:#21AE44;
+    margin-top: 10px;
+
+}
+.thank-you h2,a{
+    color: #854FAB;
+    margin-top: 15px;
+}
+.thank-you a{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
