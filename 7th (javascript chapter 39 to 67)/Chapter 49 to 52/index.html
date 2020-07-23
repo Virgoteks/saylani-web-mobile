@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chapters 49 - 52</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        form {
+            margin: 10px;
+            padding: 10px;
+        }
+        
+        form label,
+        form input {
+            margin: 10px;
+        }
+        
+        form input[type='submit'] {
+            padding: 10px 15px 10px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Task 01 -->
+    <div id="task01Container">
+        <form onsubmit="submitForm()">
+            <h2>Signup Form</h2>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+            <br />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+            <br />
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" />
+            <br />
+            <input type="submit" id="submit" />
+        </form>
+    </div>
+
+    <hr />
+
+    <!-- Task 02 -->
+    <div id="task02Container">
+        <p id="textElement"></p> <a href="#" onclick="readMore(this)">Read More</a>
+    </div>
+
+    <hr />
+
+    <!-- Task 03 -->
+    <div id="task03Container">
+        <form>
+            <h2>Add Student</h2>
+            <label for="pass">ID</label>
+            <input type="number" name="id" id="id" />
+            <br />
+            <label for="stdName">Name</label>
+            <input type="text" name="stdName" id="stdName" />
+            <br />
+            <label for="class">Class</label>
+            <input type="class" name="class" id="class" />
+            <br />
+            <input type="button" id="add" value="ADD" onclick="addStudent()" />
+        </form>
+        <table id="table1">
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>CLASS</th>
+                <th></th>
+            </tr>
+        </table>
+        <form id="editStd">
+            <h2>Edit Student</h2>
+            <label for="updateId">ID</label>
+            <input type="number" name="updateId" id="updateId" />
+            <br />
+            <label for="updateStdName">Name</label>
+            <input type="text" name="updateStdName" id="updateStdName" />
+            <br />
+            <label for="updateClass">Class</label>
+            <input type="class" name="updateClass" id="updateClass" />
+            <br />
+            <input type="button" id="updateBtn" value="Update" />
+            <input type="button" id="doneBtn" value="Close" />
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

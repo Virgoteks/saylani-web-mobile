@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapters 43 - 48</title>
+    <style>
+        div {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 90vw;
+        }
+        
+        div img {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid grey;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Task 01 -->
+    <a href="#" onclick="clickMe()">Click Me</a>
+
+    <hr>
+
+    <!-- Task 02 -->
+    <div>
+        <a href="#" onclick="mobilePurchase()">
+            <img src="mobile-1.png">
+            <h4>Mobile #01</h4>
+        </a>
+        <a href="#" onclick="mobilePurchase()">
+            <img src="mobile-2.png">
+            <h4>Mobile #02</h4>
+        </a>
+        <a href="#" onclick="mobilePurchase()">
+            <img src="mobile-3.png">
+            <h4>Mobile #03</h4>
+        </a>
+    </div>
+
+    <hr>
+
+    <!-- Task 03 -->
+    <table id="table1">
+        <tr>
+            <th>INDEX</th>
+            <th>NAME</th>
+            <th>CLASS</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Ali</td>
+            <td>10</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Uzair</td>
+            <td>9</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Utaiba</td>
+            <td>10</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Rameez</td>
+            <td>8</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Huzaifa</td>
+            <td>4</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Moiz</td>
+            <td>8</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Irfan</td>
+            <td>8</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Waqas</td>
+            <td>8</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Danish</td>
+            <td>8</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Faiz</td>
+            <td>8</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Task 04 -->
+    <img src="mobile-1.png" onmouseover="changeImage(this)" onmouseout="revertImage(this)">
+
+    <hr>
+
+    <!-- Task 05 -->
+    <div id="counter">
+        <h1>Counter</h1>
+        <button id="decrease">-</button>
+        <h3 id="display">0</h3>
+        <button id="increase">+</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
